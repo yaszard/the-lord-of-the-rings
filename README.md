@@ -1,5 +1,5 @@
 # .github/workflows/ci.yml
-name: 🔧 CI Pipeline
+name: 🔧 CI Pipelin
 
 on:
   push:
