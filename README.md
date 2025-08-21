@@ -44,6 +44,6 @@ jobs:
         name: test-results-${{ matrix.node }}
         path: ./test-results/
 
-    - name: ❌ Notify on failur
+    - name: ❌ Notify on failure
       if: failure()
       run: echo "❗ CI failed on Node ${{ matrix.node }}"
