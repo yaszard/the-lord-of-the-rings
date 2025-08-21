@@ -1,5 +1,5 @@
 # .github/workflows/ci.yml
-name: 🔧 CI Pipeline
+name: 🔧 CI Pipelin
 
 on:
   push:
@@ -44,6 +44,6 @@ jobs:
         name: test-results-${{ matrix.node }}
         path: ./test-results/
 
-    - name: ❌ Notify on failure
+    - name: ❌ Notify on failur
       if: failure()
       run: echo "❗ CI failed on Node ${{ matrix.node }}"
