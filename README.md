@@ -16,7 +16,7 @@ jobs:
         node: [16, 18, 20]
 
     steps:
-    - name: 📥 Checkout repository
+    - name: 📥 Checkout reposi
       uses: actions/checkout@v3
 
     - name: 🛠 Setup Node.js ${{ matrix.node }}
